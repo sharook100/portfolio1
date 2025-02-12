@@ -2197,4 +2197,46 @@ body {
     .contact-header h3 {
         font-size: 1.8rem;
     }
+}
+
+.resume-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+
+.resume-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.resume-btn i {
+    font-size: 1.1rem;
+}
+
+.view-btn {
+    background-color: #2196f3;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #1976d2;
+    transform: translateY(-2px);
+}
+
+.download-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.download-btn:hover {
+    background-color: #388e3c;
+    transform: translateY(-2px);
 } 
