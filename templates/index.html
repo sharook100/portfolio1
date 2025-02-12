@@ -102,8 +102,19 @@
                             <i class="fas fa-database"></i>
                             Database Management
                         </span>
-                                    </div>
-                                </div>
+                    </div>
+                    <!-- Add Resume Buttons -->
+                    <div class="resume-buttons">
+                        <a href="{{ url_for('static', filename='resume/SHAROOK SHAIK.pdf') }}" class="resume-btn view-btn">
+                            <i class="fas fa-eye"></i>
+                            View Resume
+                        </a>
+                        <a href="{{ url_for('static', filename='resume/SHAROOK SHAIK.pdf') }}" download class="resume-btn download-btn">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
 
                 <!-- Stats Card -->
                 <div class="about-card stats-card">
@@ -396,7 +407,7 @@
                         <h3>Landscaper</h3>
                         <p>Created a Landscaper website to help clients to find best landscaper.</p>
                         <div class="project-links">
-                            <a href="#" class="project-btn github">
+                            <a href="https://saileelavardhan.github.io/landscaper_bot/home.html" class="project-btn github">
                                 <i class="fab fa-github"></i>
                                 Code
                             </a>
